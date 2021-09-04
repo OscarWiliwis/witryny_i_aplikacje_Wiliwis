@@ -1,0 +1,56 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_wiliwis()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<textarea rows="41" cols="130">
+JS powstała w  1995 roku.
+JavaScript jest językiem skryptowym ponieważ, nie musi zostać skompilowany do kodu maszynowego,
+aby można było zobaczyć efekty jego działania.
+O olbrzymiej popularności języka zadecydowały z pewnością jego uniwersalność oraz fakt,
+iż pozwala on na odciążenie serwerów i ograniczenie ilości zbędnych danych przesyłanych pomiędzy nimi a przeglądarką klienta.
+Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone uprawnienia dostępu do zasobów komputera,
+przy użyciu którego przeglądana jest dana strona,
+a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.
+Przy użyciu którego przeglądana jest dana strona,
+ a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.
+ 
+<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')">
+Tworzenie przcisku, który przekierowuje nas na nową kartę
+
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+Standardowa konstrukcja otwierająca okno 
+
+toolbar=no
+Ukrywa standardowy pasek narzędzi
+
+directoies=no
+Ukrywa przyciski katalogów
+
+menubar=no
+Ukrywa menu przeglądarki
+
+height=280
+Ustawia wysokość okna
+
+width=160
+Ustawia szerokość okna
+
+top=200
+Ukrywa standardowy pasek narzędzi
+
+left=200
+Ustawia położenie okna względem lewej strony ekranu
+
+window.close()
+Zamknięcie okna
+</textarea>
+<img src="cat.gif"/>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_wiliwis()"/>
+</body>
+</html>
